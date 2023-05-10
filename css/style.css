@@ -10302,6 +10302,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   border-bottom: 2px solid #F86E21;
   transform: scaleX(0.6);
 }
+@media screen and (max-width: 1022px) {
+  .navbar-item.is-active::after {
+    width: 20%;
+    left: 13px;
+    transform: scaleX(1);
+  }
+}
 
 a h3:hover {
   color: #19A9BC;

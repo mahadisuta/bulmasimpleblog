@@ -51,6 +51,11 @@ $navbar-item-hover-color: $primary_clr
       border-bottom: 2px solid $primary_clr
       transform: scaleX(0.6)
 
+      @include until(1023px)
+        width: 20%
+        left: 13px
+        transform: scaleX(1)
+
 a
   h3
     &:hover
