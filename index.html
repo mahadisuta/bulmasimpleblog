@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bulma Simple Personal Blog</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="container py-4">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="img/logo.webp" width="28" height="28">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="main-nav">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="main-nav" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item">HOME</a>
+          <a class="navbar-item is-active">BLOG</a>
+          <a class="navbar-item">BOOKMARKS</a>
+          <a class="navbar-item">ELEMENTS</a>
+          <a class="navbar-item">PLAYLISTS</a>
+          <a class="navbar-item">BOOKS</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="section">
+    <div class="container">
+      <h1 class="title is-size-1">The Blog</h1>
+      <div class="columns is-vcentered">
+        <div class="column is-8-desktop is-7-tablet is-12-mobile">
+          <figure class="image is-fullwidth">
+            <img src="img/header.webp">
+          </figure>
+        </div>
+        <div class="column is-4-desktop is-5-tablet is-12-mobile">
+          <time>Maret 05, 2021</time>
+          <h2 class="title is-size-2">Tentang Creativity Block pada UI Designer</h2>
+          <p>Beberapa cara yang saya lakukan ketika tidak memiliki ide atau bingung untuk memulai design</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- POST -->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-variable is-6 is-multiline is-mobile">
+        <div class="column is-4-desktop is-6-tablet is-12-mobile mb-4">
+          <a href="#">
+            <figure class="image is-fullwidth">
+              <img class="post-img" src="img/img-1.webp">
+            </figure>
+          </a>
+          <div class="py-3">
+            <time>Maret 01, 2021</time>
+            <a href="#">
+              <h3 class="title is-size-3 my-3">Memilih foto yang cocok untuk design website</h3>
+            </a>
+            <p>Tips memilih foto yang cocok untuk desain website dan bagaimana cara menempatkan nya dengan tepat</p>
+          </div>
+        </div>
+        <div class="column is-4-desktop is-6-tablet is-12-mobile mb-4">
+          <a href="#">
+            <figure class="image is-fullwidth">
+              <img class="post-img" src="img/img-2.webp">
+            </figure>
+          </a>
+          <div class="py-3">
+            <time>Maret 26, 2021</time>
+            <a href="#">
+              <h3 class="title is-size-3 my-3">Membuat desain header yang proporsional</h3>
+            </a>
+            <p>Sedikit Tips untuk membuat design bagian header pada website yang ideal dan tidak terlalu kegedean</p>
+          </div>
+        </div>
+        <div class="column is-4-desktop is-6-tablet is-12-mobile mb-4">
+          <a href="#">
+            <figure class="image is-fullwidth">
+              <img class="post-img" src="img/img-3.webp">
+            </figure>
+          </a>
+          <div class="py-3">
+            <time>Februari 24, 2021</time>
+            <a href="#">
+              <h3 class="title is-size-3 my-3">Cara memakai inspirasi dari referansi</h3>
+            </a>
+            <p>Bagaimana saya biasanya mengambil inspirasi lalu diterapkan pada design dengan sedikit modifikasi</p>
+          </div>
+        </div>
+        <div class="column is-4-desktop is-6-tablet is-12-mobile mb-4">
+          <a href="#">
+            <figure class="image is-fullwidth">
+              <img class="post-img" src="img/img-4.webp">
+            </figure>
+          </a>
+          <div class="py-3">
+            <time>Febuari 23, 2021</time>
+            <a href="#">
+              <h3 class="title is-size-3 my-3">Sebaiknya Belajar UI Design mulai dari mana?</h3>
+            </a>
+            <p>Tahapan belajar UI Design di tengah deras nya informasi tentang industri UI/UX yang kadang membuat
+              bingung</p>
+          </div>
+        </div>
+        <div class="column is-4-desktop is-6-tablet is-12-mobile mb-4">
+          <a href="#">
+            <figure class="image is-fullwidth">
+              <img class="post-img" src="img/img-5.webp">
+            </figure>
+          </a>
+          <div class="py-3">
+            <time>Febuari 21, 2021</time>
+            <a href="#">
+              <h3 class="title is-size-3 my-3">Pertanyaan tentang terjun di industri UI/UX</h3>
+            </a>
+            <p>Menjawab beberapa pertanyaan dari twitter tentang bagaimana terjun di Industri UI/UX</p>
+          </div>
+        </div>
+        <div class="column is-4-desktop is-6-tablet is-12-mobile mb-4">
+          <a href="#">
+            <figure class="image is-fullwidth">
+              <img class="post-img" src="img/img-6.webp">
+            </figure>
+          </a>
+          <div class="py-3">
+            <time>Februari 18, 2021</time>
+            <a href="#">
+              <h3 class="title is-size-3 my-3">Dari Website Programmer Menjadi UI Designer</h3>
+            </a>
+            <p>Pengalaman saya menjalani proses transisi menjadi UI Designer, beberapa poin bisa dipraktekkan</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="has-text-centered">
+    <section class="section has-background-grey-lighter">
+      UI/UX Design by <a href="https://dribbble.com/shots/15238065-Blog-Personal-Website/attachments/6986428?mode=media"
+        target=_blank><b>Dwinawan</b></a>
+    </section>
+  </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".navbar-burger").click(function () {
+        $(".navbar-burger").toggleClass("is-active");
+        $(".navbar-menu").toggleClass("is-active");
+      });
+    });
+  </script>
+</body>
+
+</html>
